@@ -1,0 +1,191 @@
+/* Charitify Theme Responsive Design */
+
+@media (max-width: 1024px) {
+   .skill-content {
+        padding: 29px 20px;
+    }
+    .comments-list .comment-box{
+        width: 620px;
+    }
+    .reply-list .comment-box{
+        width: 540px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding{
+        padding: 15px;
+    }
+    ul.nav > li > a {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .blog-content p{
+        font-size: 12px;
+    }
+    .blog-items{
+        padding: 0 10px;
+    }
+    .list-items .blog-post .col-md-6:first-child{
+        padding-left: 15px;
+    }
+    .bottom-header .default-btn{
+        display: none;
+    }
+    #mainmenu li{
+        padding-left: 15px;
+    }
+    .main-header .social-icon{
+        display: none;
+    }
+    .hero-content h1{
+        font-size: 36px;
+    }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p br{
+        display: none;
+    }
+    .footer-section,
+    .padding{
+        padding: 60px 0;
+    }
+    .xs-padding{
+    	padding: 15px;
+    }
+    .site-branding {
+        padding: 11px 0;
+    }
+    .js #mainmenu {
+        display:none;
+    }
+    .js .slicknav_menu {
+        display:block;
+    }
+    .hero-section{
+        height: 300px;
+    }
+    .hero-content h1 {
+        font-size: 24px;
+        line-height: 1.6;
+    }
+    .cta-content h2 br,
+    .hero-content h1 br{
+        display: none;
+    }
+    .work-filter.center-align,
+    .work-filter{
+        margin-top: -10px;
+    }
+    .work-filter li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .work-filter.center-align li{
+        margin: 0 5px 10px;
+    }
+    .cta-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+    .share-icon li{
+        margin-bottom: 10px;
+    }
+    .contact_form .form-group .col-sm-6:first-child{
+        margin-bottom: 15px;
+    }
+    .coment-form .form-group .col-sm-4:last-child{
+        margin-top: 15px;
+    }
+    .campaigns-wrap h2{ font-size: 24px; }
+    .comments-list .comment-box{ width: 78%; }
+    .reply-list{
+        padding-left: 10px;
+    }
+    .comments-list .comment-box:before,
+    .comments-list .comment-box:after,
+    .comments-list:before{
+        display: none;
+    }
+    #scroll-to-top {
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+        line-height: 35px;
+        bottom: 20px;
+        right: 20px;
+    }
+    #google_map{
+        position: inherit;
+    }
+    .contact-wrap {
+        padding: 60px 10px;
+        margin-top: 60px;
+    }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+/* ---- Start of max-width 575px CSS ---- */
+@media all and (max-width: 575px) {
+    .coment-form .form-group .col-sm-4{
+        margin-bottom: 15px;
+        margin-top: auto;
+    }
+    .contact-form .form-group .col-sm-6:nth-child(1),
+    .comment-form .form-group .col-sm-4:nth-child(1),
+    .comment-form .form-group .col-sm-4:nth-child(2){
+        margin-bottom: 15px;
+    }
+    .works-single{
+        height: 300px;
+    }
+    .skill-img{
+        display: none;
+    }
+    .service-wrap .service-content{
+        padding: 5px 30px;
+    }
+
+}
+/* ---- End of max-width 575px CSS ---- */
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	.slider_content .btn_group a {
+        margin: 0 10px 10px 0;
+    }
+}
+/* ---- End of max-width 380px CSS ---- */
